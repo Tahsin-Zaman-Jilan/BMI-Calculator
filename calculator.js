@@ -27,7 +27,7 @@ app.post("/", (req, res) => {
  
 app.get("/bmiCalculator", (req, res) => {
     
-    res.sendFile(__dirname + "/index.html");
+    res.sendFile(__dirname + "/bmiCalculator.html");
     
 });
  
@@ -43,7 +43,5 @@ app.post("/bmiCalculator", (req, res) => {
 });
  
 app.listen(3000, () => {
-    console.log("Server Is Started On Port 3000 ");
+    console.log("Server Is Started On Port 7000 ");
 });
- 
- 
