@@ -27,7 +27,7 @@ app.post("/", (req, res) => {
  
 app.get("/bmiCalculator", (req, res) => {
     
-    res.sendFile(__dirname + "/calculator.html");
+    res.sendFile(__dirname + "/index.html");
     
 });
  
